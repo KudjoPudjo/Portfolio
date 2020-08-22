@@ -1,4 +1,5 @@
 body {
+  background:#fe6c62;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +12,123 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.shop-content{
+  background-color:rgb(245, 245, 219);
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 10vw;
+  justify-content: space-around;
+  flex-direction: row;
+  top: 13vh;
+  left: 15vw;
+  width: 70vw;
+  min-height: 80vh;
+  border: 2px solid #9d71c6;
+}
+.content{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 15vw;
+  height: 20vh;   
+  background-color:#c5a7e2c4 ;
+  border-radius: 10px;
+}
+
+.content-title{
+  font-family: Comic Sans MS;
+  color: black;
+  text-decoration: none;
+}
+
+.content-img{
+  width: 6vw;
+  height: 10vh;
+}
+.headerBar{
+  display: flex;
+  position: absolute;
+  left: 15vw;
+  top: 3vh;  
+}
+.headerBar img{
+  width: 5vw;
+  height: 9vh;
+}
+.headerBar-title{
+  margin-top: 20px;
+}
+.cardLength{  
+  margin-left: 5vw;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+.cardItem{
+  margin-left: 5vw;
+}
+.quality{
+  width: 3vw;
+}
+.finelPrice{
+  width: 30vw;
+  height: 6vh;
+  background-color:#91eeee;
+  position: absolute;
+  bottom: 1%;
+  left: 37vw;
+  padding-top: 1vh;
+  padding-left: 1vw;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.cardContetn{
+  background-color:rgb(245, 245, 219);
+  display:block;
+  position:relative;  
+  margin-top: 13vh;
+  margin-left: 15vw;
+  width: 70vw;
+  min-height: 80vh;
+  border: 2px solid #9d71c6;
+}
+.removeBtn{
+  position: absolute; 
+  border-radius: 5px;
+  left: 300px;
+  margin-top: 10px;
+  background-color: #f6e1fe;
+}
+.content-page-img{
+  width: 10vw;
+  height: 10vw;
+  
+  
+  
+}
+.pageContent{
+  display: block;
+  margin-top: 7vh;
+  margin-left: 10vw;
+}
+.slider{  
+  display: block;
+  width: 11vw;
+
+}
+.sliderPos{
+  margin-top: 1vh;
+  position: static;  
+}
+.discription{
+  padding: 10px 10px 10px 10px;
+  width: 50vw;
+  margin-top: 10vh;
+  border:2px dotted black;
+  background-color: #f6e1fe;
+}
+
